@@ -44,7 +44,7 @@ const Navbar = () => {
               </div>
             </div>
 
-            <div className="flex items-center gap-2 mx-auto mt-9 w-120">
+            <div className="flex items-center gap-2 mx-auto mt-5 w-120">
               {navBarContent.map((values) => (
                 <div className="bg-white mx-auto  items-center text-gray-700 hover-text-blue-600">
                   {values.icons}
@@ -56,9 +56,13 @@ const Navbar = () => {
 
           <div className="flex items-center gap-2">
       
-            <div className="flex items-center space-x-1  bg-white rounded-md border-2 border-gray-300 p-1 w-20 ">
+            {/* <div className="flex items-center space-x-1  bg-white rounded-md border-2 border-gray-300 p-1 w-20 ">
               <span className="text-large font-normal  text-black">English</span>
-              <svg
+           
+
+            </div> */}
+
+            <button className="flex  items-center border-1 font-semibold rounded-md text-lg border-gray-300 px-5 p-1">English <svg
                 className="w-4 h-4 text-black"
                 fill="none"
                 stroke="currentColor"
@@ -70,11 +74,10 @@ const Navbar = () => {
                   strokeWidth={2}
                   d="M19 9l-7 7-7-7"
                 />
-              </svg>
-            </div>
+              </svg></button>
 
             {/* Login Button */}
-            <button className="bg-[#5648ED] text-white px-6 py-2 rounded-lg text-sm font-normal">
+            <button className="bg-[#5648ED] text-white px-6 py-1 rounded-lg text-lg font-bold">
               Login
             </button>
           </div>
