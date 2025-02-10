@@ -13,7 +13,7 @@ const navBarContent = [
 
 const Navbar = () => {
   return (
-    <div className="w-full bg-white shadow-sm p-5">
+    <div className=" sticky top-0 w-full bg-white shadow-xl p-5 ">
       <div className="p-5">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
