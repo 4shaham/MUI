@@ -32,11 +32,11 @@ const Navbar = () => {
                 <input
                   type="text"
                   placeholder="Search"
-                  className="pl-10 pr-4 py-2 w-96 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5648ED] focus:border-transparent"
+                  className="pl-10 pr-4 py-2 w-70 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#5648ED] focus:border-transparent"
                 />
               </div>
 
-              <div className="flex items-center gap-3 text-gray-400 font-normal">
+              <div className="flex items-center gap-3 text-gray-400 text-lg font-normal mx-5">
                 <h1>Refer & Earn |</h1>
                 <h1>Coupon | </h1>
                 <h1>Download App </h1>

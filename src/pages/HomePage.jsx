@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Component/Navbar'
+import HeroPage from '../Component/HeroPage'
 
 function HomePage() {
 
@@ -8,7 +9,7 @@ function HomePage() {
        <>
 
             <Navbar/>
-            
+            <HeroPage/>
 
        </>
   )
