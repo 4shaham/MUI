@@ -3,6 +3,7 @@ import Navbar from "../Component/Navbar";
 import HeroPage from "../Component/HeroPage";
 import Card from "../Component/card";
 
+
 function HomePage() {
   const [button, setButtonStatus] = useState([
     { name: "Railway", status: true },
