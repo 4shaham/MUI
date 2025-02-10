@@ -1,6 +1,6 @@
 import React from "react";
 
-function Card() {
+function Cards() {
   return (
     <div className=" flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-90 p-6">
       <div className="mb-1 text-start">
@@ -27,4 +27,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Cards;

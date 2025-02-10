@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Navbar from "../Component/Navbar";
 import HeroPage from "../Component/HeroPage";
-import Card from "../Component/card";
+import Cards from "../Component/Cards";
+
 
 
 function HomePage() {
@@ -112,7 +113,7 @@ function HomePage() {
                 {buttonRelatedData
                   .filter((values) => values.category == currentButton)
                   ?.map((values) => (
-                    <Card />
+                    <Cards />
                   ))}
               </div>
               <div className="flex mx-auto justify-center mt-3">
