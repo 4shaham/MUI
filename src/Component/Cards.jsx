@@ -2,7 +2,7 @@ import React from "react";
 
 function Cards() {
   return (
-    <div className=" flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-90 p-6">
+    <div className=" flex flex-col my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-80 p-6">
       <div className="mb-1 text-start">
         <h5 className="text-black text-xl font-semibold">
           Website Review Check
