@@ -3,7 +3,7 @@ import React from "react";
 function HeroPage() {
   return (
     <div className="p-5 bg-white">
-      <div className="w-full  bg-violet-300 rounded-xl flex items-center justify-between h-80">
+      <div className="w-full bg-gradient-to-r from-violet-300 to-yellow-100 rounded-xl flex items-center justify-between h-80">
         <div className="mx-auto">
           <div className="items-center ">
             <h1 className="font-semibold text-5xl">Exam</h1>
