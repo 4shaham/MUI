@@ -2,12 +2,13 @@ import React from "react";
 import { Search } from "lucide-react";
 import { RiGraduationCapLine } from "react-icons/ri";
 import { LuJapaneseYen } from "react-icons/lu";
+import { IoDocumentTextOutline } from "react-icons/io5";
 
 const navBarContent = [
   { name: "Coursers", icons: <RiGraduationCapLine className="w-8 h-8 mx-auto text-gray-400 hover:text-blue-600" /> },
-  { name: "Test Series", icons:<RiGraduationCapLine className="w-8 h-8 mx-auto text-gray-400" /> },
-  { name: "Test Pass Pro+", icons: <RiGraduationCapLine className="w-8 h-8 mx-auto text-gray-400" /> },
-  { name: "Examys Ai", icons: <RiGraduationCapLine className="w-8 h-8 mx-auto text-gray-400" />},
+  { name: "Test Series", icons:<IoDocumentTextOutline className="w-8 h-8 mx-auto text-gray-400 hover:text-blue-600" /> },
+  { name: "Test Pass Pro+", icons: <RiGraduationCapLine className="w-8 h-8 mx-auto text-gray-400 hover:text-blue-600" /> },
+  { name: "Examys Ai", icons: <RiGraduationCapLine className="w-8 h-8 mx-auto text-gray-400 hover:text-blue-600" />},
 ];
 
 const Navbar = () => {
@@ -36,14 +37,14 @@ const Navbar = () => {
                 />
               </div>
 
-              <div className="flex items-center gap-3 text-gray-400 text-lg font-normal mx-5">
-                <h1>Refer & Earn |</h1>
-                <h1>Coupon | </h1>
-                <h1>Download App </h1>
+              <div className="flex items-center gap-3 text-gray-400 text-lg font-normal mx-5 ">
+                <h1 className="hover:text-black">Refer & Earn |</h1>
+                <h1 className="hover:text-black">Coupon | </h1>
+                <h1 className="hover:text-black">Download App </h1>
               </div>
             </div>
 
-            <div className="flex items-center gap-2 mx-auto mt-3">
+            <div className="flex items-center gap-2 mx-auto mt-9 w-120">
               {navBarContent.map((values) => (
                 <div className="bg-white mx-auto  items-center text-gray-700 hover-text-blue-600">
                   {values.icons}
